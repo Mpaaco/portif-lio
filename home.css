@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+span{
+    color: #EEF2CE;
+}
+:root {
+    --font-1: "Le Murmure", sans-serif;
+    --font-2: "Inter", sans-serif;
+}
+
+body {
+    background-color: #164038;
+}
+
+section {
+    max-width: 1440px;
+    max-height: 650px;
+    margin: 0 auto;
+}
+
+/*nav bar*/
+.hamburger {
+    border: none;
+    background: none;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+.hamburger::after,
+.hamburger::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin-top: 4px;
+    position: relative;
+    transition: 0.3s;
+}
+
+nav {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Home */
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.all_txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.txt_h {
+    max-width: 722px;
+}
+
+.txt_h h3 {
+    font-size: x-large;
+    text-transform: uppercase;
+    font-family: var(--font-2);
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.txt_h h1 {
+    font-family: var(--font-1);
+    font-size: 128px;
+    color: #EEF2CE;
+    margin-top:-15px ;
+
+}
+
+.txt_h h2 {
+    font-family: var(--font-2);
+    font-size: 20px;
+    color: white;
+    font-size: x-large;
+}
+.txt_h p{
+    font-family: var(--font-2);
+    font-size: 16px;
+    width: 633px;
+    color: white;
+    margin-top: 10px;
+}
