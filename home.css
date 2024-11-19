@@ -5,9 +5,11 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-span{
+
+span {
     color: #EEF2CE;
 }
+
 :root {
     --font-1: "Le Murmure", sans-serif;
     --font-2: "Inter", sans-serif;
@@ -51,24 +53,27 @@ nav {
     margin-bottom: 15px;
 }
 
+
 /* Home */
 .home {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
 }
-.all_txt{
+
+.all_txt {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 25px;
 }
+
 .txt_h {
     max-width: 722px;
 }
 
 .txt_h h3 {
-    font-size: x-large;
+    font-weight: 600;
     text-transform: uppercase;
     font-family: var(--font-2);
     font-size: 20px;
@@ -80,20 +85,64 @@ nav {
     font-family: var(--font-1);
     font-size: 128px;
     color: #EEF2CE;
-    margin-top:-15px ;
+    margin-top: -15px;
 
 }
 
 .txt_h h2 {
     font-family: var(--font-2);
     font-size: 20px;
+    font-weight: 600;
     color: white;
     font-size: x-large;
 }
-.txt_h p{
+
+.txt_h p {
     font-family: var(--font-2);
     font-size: 16px;
     width: 633px;
     color: white;
     margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 521px;
+}
+
+.bt-1 {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #F27D72;
+    color: white;
+    font-family: var(--font-2);
+}
+
+hr {
+    width: 83px;
+    height: 5px;
+    background-color: #F27D72;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    right: 22px;
+}
+
+.bt-2 {
+    font-family: var(--font-2);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.txt_d p{
+  font-family: var(--font-2);
+  font-weight: 600;
+  font-size: 8px;
+  color: white;
+ position: relative;
+ top: 120px;
+  
 }
