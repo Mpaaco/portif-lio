@@ -3,5 +3,4 @@ Aqui você encontrará um resumo sobre mim e minha jornada no desenvolvimento fr
 
 Explore para conhecer mais sobre minha trajetória, habilidades e contribuições para o mundo digital!
 <h1> Clone isso aqui </h1>
-git clone [https://github.com/santyasm/a3-usabilidade-grupo11
-](https://github.com/Mpaaco/portif-lio.git)
+git clone https://github.com/Mpaaco/portif-lio.git
