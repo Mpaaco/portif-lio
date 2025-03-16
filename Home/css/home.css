@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-span {
+.txt_h span {
     color: #EEF2CE;
 }
 
@@ -16,10 +16,14 @@ span {
 }
 
 body {
+    max-width: 1440px;
     background-color: #164038;
 }
 
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 1440px;
     max-height: 650px;
     margin: 0 auto;
@@ -55,11 +59,15 @@ nav {
 
 
 /* Home */
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.home  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1440px;
+        max-height: 650px;
+        margin: 0 auto;
+    }
+
 
 .all_txt {
     display: flex;
@@ -137,12 +145,44 @@ hr {
     color: white;
 }
 
-.txt_d p{
-  font-family: var(--font-2);
-  font-weight: 600;
-  font-size: 8px;
-  color: white;
- position: relative;
- top: 120px;
-  
+.txt_d p {
+    font-family: var(--font-2);
+    font-weight: 600;
+    font-size: 8px;
+    color: white;
+    position: relative;
+    top: 120px;
+}
+
+/*Aboute*/
+
+
+.abolte{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    max-height: 650px;
+    margin: 0 auto;
+    background-color: #0B1F2A;
+}
+
+.all_txt_ab{
+    width: 659px;
+    height: 253px;
+    padding:10px;
+}
+
+.txt_ab h1 {
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 60px;
+    color: #F27D72;
+}
+
+.txt_ab p {
+    font-size: var(--font-2);
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
 }
